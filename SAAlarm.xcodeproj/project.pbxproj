@@ -64,7 +64,6 @@
 		E83441B720DA7800006621CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E8CDCE3D20D920F40058E7DD /* Info.plist */,
 				E8CDCE3520D920ED0058E7DD /* SAAlarm.xcdatamodeld */,
 			);
 			path = Model;
@@ -93,6 +92,7 @@
 				E83441B520DA77CA006621CA /* view */,
 				E8CDCE3820D920F40058E7DD /* Assets.xcassets */,
 				E8CDCE3A20D920F40058E7DD /* LaunchScreen.storyboard */,
+				E8CDCE3D20D920F40058E7DD /* Info.plist */,
 			);
 			path = SAAlarm;
 			sourceTree = "<group>";

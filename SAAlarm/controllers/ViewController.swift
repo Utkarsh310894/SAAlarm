@@ -49,7 +49,7 @@ class ViewController: UIViewController{
         if index == nil
         {
        let alarmTime = Alarm(context: context)
-        dateFormatter.timeStyle = .short
+        dateFormatter.timeStyle = .full
         dateFormatter.dateStyle = .none
         let time = dateFormatter.string(for: pkrTimePicker.date)
         alarmTime.time = time
