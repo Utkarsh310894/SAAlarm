@@ -6,7 +6,12 @@
         <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="timeZone" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="WorldClock" representedClassName="WorldClock" syncable="YES" codeGenerationType="class">
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Alarm" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="WorldClock" positionX="-63" positionY="9" width="128" height="75"/>
     </elements>
 </model>

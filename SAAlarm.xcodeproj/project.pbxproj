@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83441B920DA9336006621CA /* worldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83441B820DA9336006621CA /* worldClockViewController.swift */; };
+		E83441BB20DA9406006621CA /* clockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83441BA20DA9406006621CA /* clockTableViewCell.swift */; };
+		E8C4BB3020DB618B009CBAD8 /* timezoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4BB2F20DB618B009CBAD8 /* timezoneTableViewController.swift */; };
 		E8CDCE2F20D920ED0058E7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CDCE2E20D920ED0058E7DD /* AppDelegate.swift */; };
 		E8CDCE3120D920ED0058E7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CDCE3020D920ED0058E7DD /* ViewController.swift */; };
 		E8CDCE3420D920ED0058E7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CDCE3220D920ED0058E7DD /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E83441B820DA9336006621CA /* worldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldClockViewController.swift; sourceTree = "<group>"; };
+		E83441BA20DA9406006621CA /* clockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockTableViewCell.swift; sourceTree = "<group>"; };
+		E8C4BB2F20DB618B009CBAD8 /* timezoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timezoneTableViewController.swift; sourceTree = "<group>"; };
 		E8CDCE2B20D920ED0058E7DD /* SAAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CDCE2E20D920ED0058E7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8CDCE3020D920ED0058E7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 				E8CDCE3020D920ED0058E7DD /* ViewController.swift */,
 				E8CDCE4520D925480058E7DD /* AlarmTableViewCell.swift */,
 				E8CDCE4320D922FE0058E7DD /* AlarmTableViewController.swift */,
+				E83441B820DA9336006621CA /* worldClockViewController.swift */,
+				E83441BA20DA9406006621CA /* clockTableViewCell.swift */,
+				E8C4BB2F20DB618B009CBAD8 /* timezoneTableViewController.swift */,
 				E83441B720DA7800006621CA /* Model */,
 			);
 			path = controllers;
@@ -170,6 +179,9 @@
 			files = (
 				E8CDCE4620D925480058E7DD /* AlarmTableViewCell.swift in Sources */,
 				E8CDCE3120D920ED0058E7DD /* ViewController.swift in Sources */,
+				E8C4BB3020DB618B009CBAD8 /* timezoneTableViewController.swift in Sources */,
+				E83441BB20DA9406006621CA /* clockTableViewCell.swift in Sources */,
+				E83441B920DA9336006621CA /* worldClockViewController.swift in Sources */,
 				E8CDCE4420D922FE0058E7DD /* AlarmTableViewController.swift in Sources */,
 				E8CDCE3720D920ED0058E7DD /* SAAlarm.xcdatamodeld in Sources */,
 				E8CDCE2F20D920ED0058E7DD /* AppDelegate.swift in Sources */,

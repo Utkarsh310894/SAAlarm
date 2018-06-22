@@ -66,12 +66,7 @@ class AlarmTableViewController: UITableViewController,switchState {
         if editingStyle == .delete {
            context.delete(alarmArray[indexPath.row])
             alarmArray.remove(at: indexPath.row)
-            do{
-             try context.save()
-            }
-            catch{
-                print("Error during deleting data")
-            }
+            saveData()
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
            
